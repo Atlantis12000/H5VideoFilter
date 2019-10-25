@@ -1,0 +1,71 @@
+{
+   "default_title": {
+      "message": "选择过滤器以应用于视频"
+   },
+   "description": {
+      "message": "改善视频效果、彩色滤镜与音频增强"
+   },
+   "name": {
+      "message": "视频特效与音频增强"
+   },
+   "short_name": {
+      "message": "音视频特效插件"
+   },
+   "h1title": {
+      "message": "音视频特效"
+   },
+   "h2title": {
+      "message": "视频特效 & 音频增强"
+   },
+   "DarkMode": {
+      "message": "夜间模式"
+   },
+   "Contrast": {
+      "message": "对比度 (-10 - 10):"
+   },
+   "Saturation": {
+      "message": "饱和度 (-10 - 10):"
+   },
+   "Brightness": {
+      "message": "亮度 (-10 - 10):"
+   },
+   "Grayscale": {
+      "message": "灰度 (0 - 10):"
+   },
+   "Invert": {
+      "message": "反色 (0 - 10):"
+   },  
+   "Sepia": {
+      "message": "深褐色 (0 - 10):"
+   },
+   "HUE": {
+      "message": "色度 (0 - 10):"
+   },
+   "MixedF": {
+	  "message": "Filter 58: 自定义"
+   },
+   "Apply": {
+	  "message": "应用"
+   },
+   "Tips": {
+	  "message": "&laquo; 提示 &raquo; "
+   },
+   "Close": {
+	  "message": "关闭"
+   },
+   "Enable": {
+	  "message": "启用"
+   },
+   "Disable": {
+	  "message": "禁用"
+   },
+   "note1": {
+	  "message": "&raquo; 如果您启用 <b>音频增强</b>，您的音频将被共享至扩展，以应用过滤器以改善音质。您将在选项卡上看到此状态。如果您不想与扩展名共享声音，只需禁用它即可。"
+   },
+   "note2": {
+	  "message": "&raquo; 在此共享模式下，视频的全屏模式将无法正常运行（从Chrome 55及更高版本开始），因此您需要按<b>F11</b> 键才能切换到全屏模式。如果禁用<b>音频增强</b>，则全屏模式将正常工作。这是Chromium的一个bug。"
+   },
+   "note3": {
+	  "message": "&raquo; 在Chrome 69及更高版本中支持<span title='右下角小窗口模式'>画中画</span>功能。要使用画中画，在页面上观看视频时，只需按命 <strong style='color:orange;'>F9</strong>键即可"
+   }
+}

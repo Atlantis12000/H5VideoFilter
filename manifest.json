@@ -1,0 +1,39 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/48.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_default_title__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "app_player.css" ],
+      "js": [ "content.js" ],
+      "matches": [ 
+      	"https://*/*",
+        "http://*/*",
+		"file:///*/*"
+	],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "activeTab", "webRequest", "storage", "\u003Call_urls>", "webNavigation", "tabCapture", "webRequestBlocking" ],
+   "short_name": "__MSG_short_name__",
+   "homepage_url": "https://blog.csdn.net/magicpapacy/article/details/102738982",
+   "update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query",
+   "version": "0.0.0.1",
+   "web_accessible_resources": [ "audio/images/light.png", "audio/images/drop.png", "audio/images/old.png", "audio/images/fog.png", "audio/images/abstract.png", "audio/images/imagination.png", "audio/images/hearts.svg", "audio/images/waterflow.png", "audio/images/neon.png", "audio/images/fisheye.png", "audio/images/scanline.png" ]
+}
