@@ -1,0 +1,26 @@
+{
+   "default_title": {
+      "message": "Select an effect to apply"
+   },
+   "description": {
+      "message": "The must-have extension to improve video experience with video effects, color filters, audio enhancement."
+   },
+   "name": {
+      "message": "Video Effects And Audio Enhancer"
+   },
+   "short_name": {
+      "message": "Video Effects Plugins"
+   },
+   "Tips": {
+	  "message": "&laquo; Tips &raquo; "
+   },
+   "Close": {
+	  "message": "Close"
+   },
+   "Enable": {
+	  "message": "Enable"
+   },
+   "Disable": {
+	  "message": "Disable"
+   }
+}
